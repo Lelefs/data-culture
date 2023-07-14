@@ -1,0 +1,36 @@
+.container {
+  margin-top: 2rem;
+  background: #021b3b;
+  padding: 4rem 1rem;
+  color: #87bde1;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer h3 {
+  color: #02a203;
+  font-size: 40px;
+}
+
+.footer p {
+  margin: 2rem 0;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.contacts a:hover {
+  filter: brightness(90%);
+  transform: translateY(-2px);
+}

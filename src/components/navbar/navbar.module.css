@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+  background: #fff;
+  z-index: 1;
+}
+
+.invisible {
+  height: 100px;
+  background-color: transparent;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: #000;
+}

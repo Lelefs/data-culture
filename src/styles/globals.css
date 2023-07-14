@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  color: #021b3b;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button,
+textarea {
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+}
