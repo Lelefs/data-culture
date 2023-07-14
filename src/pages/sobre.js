@@ -7,7 +7,10 @@ export default function Home() {
     <>
       <Head>
         <title>Sobre | Data Culture</title>
-        <meta name="description" content="Criado por Leandro Finochio" />
+        <meta
+          name="description"
+          content="Business intelligence (BI) e ciência de dados para coletar, analisar e interpretar dados para orientar decisões de negócios."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
       </Head>
