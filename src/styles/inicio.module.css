@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  max-width: 1510px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.container > div + div {
+  margin-top: 10rem;
+}

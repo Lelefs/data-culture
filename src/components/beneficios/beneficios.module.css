@@ -1,0 +1,28 @@
+.section {
+  margin-top: 4rem;
+}
+
+.sectionInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sectionInfo p {
+  font-weight: 900;
+}
+
+.p {
+  margin-bottom: 16px;
+}
+
+.ajudar {
+  font-family: "CooperHewitt-Heavy";
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}

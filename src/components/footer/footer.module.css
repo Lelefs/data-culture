@@ -12,21 +12,12 @@
   text-align: center;
 }
 
-.footer h3 {
-  color: #02a203;
-  font-size: 40px;
-}
-
-.footer p {
-  margin: 2rem 0;
-}
-
 .contacts {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: fit-content;
-  margin: 0 auto;
+  margin: 2rem auto 0;
   gap: 3rem;
 }
 

@@ -1,0 +1,50 @@
+.section {
+  margin-top: 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sectionInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  width: 480px;
+}
+
+.sectionInfo h2 {
+  font-size: 36px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin-bottom: 1rem;
+}
+
+.list {
+  font-weight: 300;
+  font-size: 18px;
+  list-style: inside;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 802px) {
+  .section {
+    gap: 1.5rem;
+  }
+
+  .sectionInfo {
+    margin: 0 auto;
+  }
+}

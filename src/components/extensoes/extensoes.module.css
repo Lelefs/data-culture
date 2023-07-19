@@ -1,34 +1,37 @@
 .title {
   font-size: 22px;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 2.5rem;
 }
 
-.title a {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.maincontainer {
+.divlist {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 6rem;
-  margin-top: 2.5rem;
 }
 
 .list {
   font-weight: 300;
   font-size: 22px;
   list-style: inside;
+  max-width: 750px;
 }
 
-.list li {
+.list > li {
+  margin-bottom: 1.5rem;
+}
+
+.list ul li {
   margin-bottom: 0.5rem;
 }
 
 @media (max-width: 802px) {
-  .maincontainer {
+  .divlist {
     flex-direction: column;
     gap: 1rem;
+  }
+
+  .divlist > div {
+    margin: 0 auto;
   }
 }

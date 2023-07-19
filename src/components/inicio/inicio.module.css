@@ -1,0 +1,13 @@
+.container h1 {
+  margin-bottom: 1rem;
+}
+
+.container span {
+  margin: 5px 0 6rem;
+  display: block;
+  text-align: center;
+}
+
+.container div {
+  margin-bottom: 1.5rem;
+}

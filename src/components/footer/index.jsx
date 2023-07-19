@@ -2,6 +2,7 @@ import { FaWhatsapp, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import styles from "./footer.module.css";
 import Link from "next/link";
+import NomeEmpresa from "../nomeEmpresa/nomeEmpresa";
 
 export default function Footer() {
   const textoGeral =
@@ -11,9 +12,7 @@ export default function Footer() {
   return (
     <div className={styles.container}>
       <footer className={styles.footer}>
-        <h3>Data Culture</h3>
-
-        <p>Endereço virá aqui</p>
+        <NomeEmpresa />
 
         <div className={styles.contacts}>
           <Link href="https://www.instagram.com/_dataculture/" target="_blank">

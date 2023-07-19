@@ -1,5 +1,11 @@
 import Dashboard from "@/components/dashboard";
+import Inicio from "@/components/inicio/inicio";
 import Head from "next/head";
+
+import styles from "@/styles/inicio.module.css";
+import Beneficios from "@/components/beneficios/beneficios";
+import Crescimento from "@/components/crescimento/crescimento";
+import Extensoes from "@/components/extensoes/extensoes";
 
 export default function Home() {
   return (
@@ -17,7 +23,18 @@ export default function Home() {
           content="Business Intelligence, Data Science, Inside Sales, Gerenciamento de dados, Modelagem de dados, Montagem de equipe inside sales, Arquitetura de dados, Plataformas BI e Tratamento de dados"
         />
       </Head>
-      <Dashboard />
+
+      <div className={styles.container}>
+        <Inicio />
+
+        <Beneficios />
+
+        <Crescimento />
+
+        <Extensoes />
+
+        <Dashboard />
+      </div>
     </>
   );
 }

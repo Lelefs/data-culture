@@ -12,6 +12,7 @@ export default function Navbar() {
             src="/Transparente.png"
             width={64}
             height={64}
+            title="DataCulture"
             alt="Data Culture"
           />
         </Link>

@@ -17,10 +17,12 @@
 
 .links {
   display: flex;
+  color: #021b3b;
+  font-size: 20px;
+  font-weight: 500;
   gap: 1rem;
 }
 
 .links a:hover {
-  text-decoration: underline;
-  color: #000;
+  color: #87bde1;
 }

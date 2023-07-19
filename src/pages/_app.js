@@ -1,3 +1,4 @@
+import BtnWhatsApp from "@/components/btnWhatsApp/btnWhatsApp";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import "@/styles/globals.css";
@@ -11,6 +12,7 @@ export default function RootLayout({ Component, ...pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <Footer />
+      <BtnWhatsApp />
     </main>
   );
 }
