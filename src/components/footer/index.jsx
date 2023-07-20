@@ -39,6 +39,10 @@ export default function Footer() {
             <FiMail size={35} />
           </Link>
         </div>
+
+        <p className={styles.copyright}>
+          © 2023 - Desenvolvido por <strong>FSET</strong>
+        </p>
       </footer>
     </div>
   );

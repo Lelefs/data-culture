@@ -25,3 +25,8 @@
   filter: brightness(90%);
   transform: translateY(-2px);
 }
+
+.copyright {
+  transform: translateY(2rem);
+  font-size: 0.75rem;
+}
