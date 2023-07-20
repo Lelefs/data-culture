@@ -1,10 +1,9 @@
 .section {
   margin-top: 4rem;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .sectionInfo {
@@ -13,7 +12,8 @@
   align-items: center;
   justify-content: flex-start;
   gap: 0.5rem;
-  width: 480px;
+  width: 100%;
+  max-width: 750px;
 }
 
 .sectionInfo h2 {
@@ -32,18 +32,16 @@
 .list {
   font-weight: 300;
   font-size: 18px;
-  list-style: inside;
 }
 
 .list li {
   margin-bottom: 0.5rem;
+  list-style-position: inside;
+  padding: 4px 0 4px 30px;
+  text-indent: -25px;
 }
 
-@media (max-width: 802px) {
-  .section {
-    gap: 1.5rem;
-  }
-
+@media only screen and (max-width: 802px) {
   .sectionInfo {
     margin: 0 auto;
   }

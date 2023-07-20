@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className={styles.navbar}>
         <Link href="/">
           <Image
-            src="/Transparente.png"
+            src="/Logo.png"
             width={64}
             height={64}
             title="DataCulture"

@@ -32,21 +32,23 @@ export default function Home() {
           orientar decisões de negócios.
         </p>
 
-        <p>
-          • &nbsp;BI: Utiliza-se de tecnologias e práticas que permitem às
-          empresas coletar, integrar e analisar grandes quantidades de dados
-          para identificar tendências, padrões e insights valiosos que ajudam a
-          tomar decisões de negócios mais informadas e estratégicas. As
-          ferramentas de BI incluem dashboards, relatórios, análise de dados e
-          visualizações.
-        </p>
+        <ul>
+          <li>
+            BI: Utiliza-se de tecnologias e práticas que permitem às empresas
+            coletar, integrar e analisar grandes quantidades de dados para
+            identificar tendências, padrões e insights valiosos que ajudam a
+            tomar decisões de negócios mais informadas e estratégicas. As
+            ferramentas de BI incluem dashboards, relatórios, análise de dados e
+            visualizações.
+          </li>
 
-        <p>
-          • &nbsp;Ciência de dados: É uma disciplina que se concentra na coleta,
-          análise e interpretação de dados para extrair insights valiosos e
-          informar decisões de negócios. Isso inclui técnicas como mineração de
-          dados, modelagem estatística e aprendizado de máquina.
-        </p>
+          <li>
+            Ciência de dados: É uma disciplina que se concentra na coleta,
+            análise e interpretação de dados para extrair insights valiosos e
+            informar decisões de negócios. Isso inclui técnicas como mineração
+            de dados, modelagem estatística e aprendizado de máquina.
+          </li>
+        </ul>
 
         <p>Juntos, BI e ciência de dados podem ajudar as empresas a:</p>
 

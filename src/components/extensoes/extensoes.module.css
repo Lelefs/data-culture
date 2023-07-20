@@ -5,15 +5,14 @@
 
 .divlist {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 6rem;
+  gap: 3rem;
 }
 
 .list {
   font-weight: 300;
   font-size: 22px;
-  list-style: inside;
   max-width: 750px;
 }
 
@@ -25,13 +24,20 @@
   margin-bottom: 0.5rem;
 }
 
-@media (max-width: 802px) {
+.list li {
+  list-style-position: inside;
+  padding: 4px 0 4px 30px;
+  text-indent: -30px;
+}
+
+@media only screen and (max-width: 802px) {
   .divlist {
     flex-direction: column;
     gap: 1rem;
   }
 
   .divlist > div {
-    margin: 0 auto;
+    margin: 0 auto 2rem;
+    max-width: 50%;
   }
 }

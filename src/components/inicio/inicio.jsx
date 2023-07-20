@@ -1,3 +1,4 @@
+import ImageContainer from "../imageContainer";
 import styles from "./inicio.module.css";
 
 export default function Inicio() {
@@ -11,46 +12,87 @@ export default function Inicio() {
         negócios!
       </span>
 
-      <div>
-        <h3>Soluções personalizadas</h3>
-        <p>
-          De empresas pequenas até gigantes! Sejam os dados armazenados em
-          planilhas, CRM/ERP ou grandes bancos de dados, conseguimos te ajudar!
-        </p>
+      <div className={styles.infos}>
+        <ImageContainer
+          src="/inicio/5.png"
+          alt="Soluções personalizadas"
+          width="100px"
+        />
+
+        <div>
+          <h3>Soluções personalizadas</h3>
+          <p>
+            De empresas pequenas até gigantes! Sejam os dados armazenados em
+            planilhas, CRM/ERP ou grandes bancos de dados, conseguimos te
+            ajudar!
+          </p>
+        </div>
       </div>
 
-      <div>
-        <h3>Mapeamento e Arquitetura</h3>
-        <p>
-          Mapeamento do caminho percorrido pelos dados, desde sua origem até a
-          extração de informações.
-        </p>
+      <div className={styles.infos}>
+        <ImageContainer
+          src="/inicio/6.png"
+          alt="Mapeamento e Arquitetura"
+          width="100px"
+        />
+
+        <div>
+          <h3>Mapeamento e Arquitetura</h3>
+          <p>
+            Mapeamento do caminho percorrido pelos dados, desde sua origem até a
+            extração de informações.
+          </p>
+        </div>
       </div>
 
-      <div>
-        <h3>Gerenciamento e tratamento de dados</h3>
-        <p>
-          Garantia de que esses dados cheguem com qualidade para que deles
-          possam ser extraídas as melhores e mais sólidas informações.
-        </p>
+      <div className={styles.infos}>
+        <ImageContainer
+          src="/inicio/7.png"
+          alt="Gerenciamento e tratamento de dados"
+          width="100px"
+        />
+
+        <div>
+          <h3>Gerenciamento e tratamento de dados</h3>
+          <p>
+            Garantia de que esses dados cheguem com qualidade para que deles
+            possam ser extraídas as melhores e mais sólidas informações.
+          </p>
+        </div>
       </div>
 
-      <div>
-        <h3>Transformação e disponibilidade</h3>
-        <p>
-          Através de ferramentas e algoritmos de inteligência artificial,
-          extraímos as melhores informações dos dados, disponibilizando de uma
-          forma de fácil absorção via dashboards.
-        </p>
+      <div className={styles.infos}>
+        <ImageContainer
+          src="/inicio/8.png"
+          alt="Transformação e disponibilidade"
+          width="100px"
+        />
+
+        <div>
+          <h3>Transformação e disponibilidade</h3>
+          <p>
+            Através de ferramentas e algoritmos de inteligência artificial,
+            extraímos as melhores informações dos dados, disponibilizando de uma
+            forma de fácil absorção via dashboards.
+          </p>
+        </div>
       </div>
 
-      <div>
-        <h3>Vendas orientada a dados</h3>
-        <p>
-          Com as informações obtidas através dos dados unidos à nossa equipe de
-          Smart Sales, geramos novas oportunidades de negócios de forma
-          assertiva!
-        </p>
+      <div className={styles.infos}>
+        <ImageContainer
+          src="/inicio/9.png"
+          alt="Vendas orientada a dados"
+          width="100px"
+        />
+
+        <div>
+          <h3>Vendas orientada a dados</h3>
+          <p>
+            Com as informações obtidas através dos dados unidos à nossa equipe
+            de Smart Sales, geramos novas oportunidades de negócios de forma
+            assertiva!
+          </p>
+        </div>
       </div>
     </div>
   );

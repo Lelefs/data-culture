@@ -15,7 +15,7 @@ export default function Extensoes() {
 
       <div className={styles.divlist}>
         <ImageContainer
-          src="/inicio/anotacoes.png"
+          src="/inicio/15.png"
           alt="Extensões e Acompanhamentos"
         />
 
@@ -23,7 +23,7 @@ export default function Extensoes() {
           <li>
             <b>SMB Following:</b> Plano de extensão e acompanhamento focado
             especial para empresas que optaram pelo plano SMB.
-            <ul style={{ padding: "0.5rem 0 0 30px;" }}>
+            <ul style={{ padding: "0.5rem 0 0 30px" }}>
               <li>Acompanhamento e suporte simples;</li>
               <li>Desenvolvimento ilimitado de Dashboards;</li>
               <li>Suporte em obtenção de insights.</li>

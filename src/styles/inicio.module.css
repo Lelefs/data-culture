@@ -1,10 +1,16 @@
 .container {
   width: 100%;
-  max-width: 1510px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 40px;
 }
 
 .container > div + div {
   margin-top: 10rem;
+}
+
+@media only screen and (max-width: 802px) {
+  .container {
+    padding: 20px 16px;
+  }
 }

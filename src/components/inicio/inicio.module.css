@@ -8,6 +8,14 @@
   text-align: center;
 }
 
-.container div {
-  margin-bottom: 1.5rem;
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.infos:last-child {
+  margin-bottom: 0;
 }
