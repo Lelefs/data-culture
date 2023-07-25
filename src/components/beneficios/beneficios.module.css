@@ -26,4 +26,10 @@
   padding: 0 1rem;
   flex-wrap: wrap;
   margin-top: 3rem;
+  column-gap: 10px;
+}
+
+.ajudar > div {
+  height: 34px;
+  margin-top: 1px;
 }

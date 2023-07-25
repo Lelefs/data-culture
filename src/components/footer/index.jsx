@@ -15,11 +15,16 @@ export default function Footer() {
         <NomeEmpresa />
 
         <div className={styles.contacts}>
-          <Link href="https://www.instagram.com/_dataculture/" target="_blank">
+          <Link
+            aria-label="Instagram"
+            href="https://www.instagram.com/_dataculture/"
+            target="_blank"
+          >
             <FaInstagram size={35} />
           </Link>
 
           <Link
+            aria-label="Linkedin"
             href="https://www.linkedin.com/company/dtculture/"
             target="_blank"
           >
@@ -27,6 +32,7 @@ export default function Footer() {
           </Link>
 
           <Link
+            aria-label="Whatsapp"
             href={`https://wa.me/5511975720884?text=${textoGeral}.`}
             target="_blank"
           >
@@ -34,6 +40,7 @@ export default function Footer() {
           </Link>
 
           <Link
+            aria-label="E-mail"
             href={`mailto:lucas.lapastini@dtculture.com.br?subject=${assuntoEmail}`}
           >
             <FiMail size={35} />

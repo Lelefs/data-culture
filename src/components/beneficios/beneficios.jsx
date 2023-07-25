@@ -54,7 +54,13 @@ export default function Beneficios() {
       </section>
 
       <div className={styles.ajudar}>
-        Como a &nbsp; <NomeEmpresa /> &nbsp; pode te ajudar?
+        Como a
+        <ImageContainer
+          src="/DataCulture.png"
+          alt="Data Culture"
+          width="221px"
+        />
+        pode te ajudar?
       </div>
     </div>
   );

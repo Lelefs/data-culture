@@ -30,6 +30,7 @@ export default function Dashboard() {
           <p className={styles.title}>
             Através do link:{" "}
             <Link
+              aria-label="Portfolio"
               href="https://bit.ly/3NSciIT"
               target="_blank"
               className={styles.linkDash}

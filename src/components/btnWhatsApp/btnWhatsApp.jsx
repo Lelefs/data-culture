@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import ImageContainer from "../imageContainer";
 import syles from "./btnWhatsApp.module.css";
 
 export default function BtnWhatsApp() {
@@ -7,12 +8,13 @@ export default function BtnWhatsApp() {
 
   return (
     <a
+      aria-label="Whatsapp"
       href={`https://wa.me/5511975720884?text=${textoGeral}.`}
       className={syles.container}
       target="_blank"
       rel="noopener noreferrer nofollow"
     >
-      <img src="whatsapp.png" alt="Whatsapp" />
+      <ImageContainer src="/whatsapp.png" alt="Whatsapp" />
     </a>
   );
 }
