@@ -7,39 +7,12 @@ export default function Home() {
     <>
       <Head>
         <title>Sobre | Data Culture</title>
-        <meta
-          name="description"
-          content="Business intelligence (BI) e ciência de dados para coletar, analisar e interpretar dados para orientar decisões de negócios."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://data-culture.vercel.app/" />
+        <meta property="og:url" content="https://dtculture.com.br" />
         <meta property="og:title" content="Sobre | Data Culture" />
-        <meta
-          property="og:description"
-          content="Business intelligence (BI) e ciência de dados para coletar, analisar e interpretar dados para orientar decisões de negócios."
-        />
-        <meta
-          property="og:image"
-          content="https://imgs-readme.s3.sa-east-1.amazonaws.com/Dataculture.png"
-        />
 
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://data-culture.vercel.app/"
-        />
+        <meta property="twitter:url" content="https://dtculture.com.br" />
         <meta property="twitter:title" content="Sobre | Data Culture" />
-        <meta
-          property="twitter:description"
-          content="Business intelligence (BI) e ciência de dados para coletar, analisar e interpretar dados para orientar decisões de negócios."
-        />
-        <meta
-          property="twitter:image"
-          content="https://imgs-readme.s3.sa-east-1.amazonaws.com/Dataculture.png"
-        />
       </Head>
       <main className={styles.main}>
         <p>Introduzindo o seu negócio ao Data Driven!</p>
